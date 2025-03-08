@@ -15,7 +15,7 @@ public class WarriorControllerGreen : MonoBehaviour
     private Rigidbody2D rb; // Referencia al Rigidbody2D
     int contFuego = 0; //Contador para saber cuantas veces ha sido herida con el agua
     int contMonedas; //Contador para saber cuantas veces ha sido herida con el dragon
-    int monedasMax = 32; //Máximo de monedas posibles
+    private int monedasMax = 30; //Máximo de monedas posibles
     public TMP_Text contMonedasText; //Texto para mostrar cantidad de monedas
     private float attackTime = 0; // Tiempo acumulado de "atacando"
     private float requiredAttackTime = 1f; // Tiempo necesario para destruir el objeto

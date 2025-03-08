@@ -16,7 +16,7 @@ public class WarriorControllerBlue : MonoBehaviour
     private Rigidbody2D rb; // Referencia al Rigidbody2D
     int contAttackMini = 0; //Contador para saber cuantas veces ha sido herida con el agua
     int contMonedas; //Contador para saber cuantas veces ha sido herida con el dragon
-    int monedasMax = 32; //Máximo de monedas posibles
+    private int monedasMax = 30; //Máximo de monedas posibles
     public TMP_Text contMonedasText; //Texto para mostrar cantidad de monedas
     private GameObject currentDragon; // Referencia al dragón actual
     public AudioSource coinSound; // Referencia al sonido de recolectar monedas

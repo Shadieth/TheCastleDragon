@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public TMP_Text contMonedasText;  // Asegúrate de que este Text esté asignado en el Inspector
     private string savePath;
-    private int monedasMax = 32;  // Número máximo de monedas que se pueden recolectar
+    private int monedasMax = 30;  // Número máximo de monedas que se pueden recolectar
 
     // Los datos temporales que se capturan al iniciar la escena
     private int initialVidas;
